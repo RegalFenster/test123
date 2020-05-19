@@ -1,0 +1,51 @@
+[
+    {
+        "owner": "Arx",
+        "description": "Bianchi - New York Street",
+        "imageName": "bianchi.jpg",
+        "thumbName": "thumb_bianchi.jpg",
+        "type": "roadbike"
+    },
+    {
+        "owner": "Arx",
+        "description": "Roadbike - New York Street",
+        "imageName": "newyork.jpg",
+        "thumbName": "thumb_newyork.jpg",
+        "type": "roadbike"
+    },
+    {
+        "owner": "Arx",
+        "description": "Roadbike 2 - New York Street",
+        "imageName": "newyork2.jpg",
+        "thumbName": "thumb_newyork2.jpg",
+        "type": "roadbike"
+    },
+    {
+        "owner": "Max",
+        "description": "Emerald Princess",
+        "imageName": "princess.jpg",
+        "thumbName": "thumb_princess.jpg",
+        "type": "mountainbike"
+    },
+    {
+        "owner": "Leo",
+        "description": "The First MTB",
+        "imageName": "firstMTB.jpg",
+        "thumbName": "thumb_firstMTB.jpg",
+        "type": "mountainbike"
+    },
+    {
+        "owner": "Moritz",
+        "description": "The 'Dreckspatz'",
+        "imageName": "dreckspatz.jpg",
+        "thumbName": "thumb_dreckspatz.jpg",
+        "type": "mountainbike"
+    },
+    {
+        "owner": "Max",
+        "description": "Stumpy'",
+        "imageName": "stumpy.jpg",
+        "thumbName": "thumb_stumpy.jpg",
+        "type": "mountainbike"
+    }
+]
