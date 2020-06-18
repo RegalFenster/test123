@@ -13,6 +13,11 @@
 		544B3BEE249899B800A96B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544B3BEC249899B800A96B28 /* Main.storyboard */; };
 		544B3BF0249899BB00A96B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544B3BEF249899BB00A96B28 /* Assets.xcassets */; };
 		544B3BF3249899BB00A96B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544B3BF1249899BB00A96B28 /* LaunchScreen.storyboard */; };
+		544B3BFC24989D2800A96B28 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B3BFB24989D2800A96B28 /* CountryModel.swift */; };
+		544B3BFE24989D7500A96B28 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B3BFD24989D7500A96B28 /* Country.swift */; };
+		544B3C002498AF3600A96B28 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B3BFF2498AF3600A96B28 /* DetailViewController.swift */; };
+		544B3C022498B6C900A96B28 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B3C012498B6C900A96B28 /* CountryDetail.swift */; };
+		544B3C042498C52800A96B28 /* icons8-virus-free-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 544B3C032498C52800A96B28 /* icons8-virus-free-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		544B3BEF249899BB00A96B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544B3BF2249899BB00A96B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544B3BF4249899BB00A96B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544B3BFB24989D2800A96B28 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		544B3BFD24989D7500A96B28 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		544B3BFF2498AF3600A96B28 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		544B3C012498B6C900A96B28 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
+		544B3C032498C52800A96B28 /* icons8-virus-free-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-virus-free-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		544B3BE5249899B800A96B28 /* CovidApp */ = {
 			isa = PBXGroup;
 			children = (
+				544B3BFA24989CFE00A96B28 /* Model */,
 				544B3BE6249899B800A96B28 /* AppDelegate.swift */,
 				544B3BE8249899B800A96B28 /* SceneDelegate.swift */,
 				544B3BEA249899B800A96B28 /* ViewController.swift */,
 				544B3BEC249899B800A96B28 /* Main.storyboard */,
 				544B3BEF249899BB00A96B28 /* Assets.xcassets */,
+				544B3C032498C52800A96B28 /* icons8-virus-free-100.png */,
 				544B3BF1249899BB00A96B28 /* LaunchScreen.storyboard */,
 				544B3BF4249899BB00A96B28 /* Info.plist */,
+				544B3BFF2498AF3600A96B28 /* DetailViewController.swift */,
 			);
 			path = CovidApp;
+			sourceTree = "<group>";
+		};
+		544B3BFA24989CFE00A96B28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				544B3BFB24989D2800A96B28 /* CountryModel.swift */,
+				544B3BFD24989D7500A96B28 /* Country.swift */,
+				544B3C012498B6C900A96B28 /* CountryDetail.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +151,7 @@
 				544B3BF3249899BB00A96B28 /* LaunchScreen.storyboard in Resources */,
 				544B3BF0249899BB00A96B28 /* Assets.xcassets in Resources */,
 				544B3BEE249899B800A96B28 /* Main.storyboard in Resources */,
+				544B3C042498C52800A96B28 /* icons8-virus-free-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +164,10 @@
 			files = (
 				544B3BEB249899B800A96B28 /* ViewController.swift in Sources */,
 				544B3BE7249899B800A96B28 /* AppDelegate.swift in Sources */,
+				544B3BFC24989D2800A96B28 /* CountryModel.swift in Sources */,
+				544B3C002498AF3600A96B28 /* DetailViewController.swift in Sources */,
+				544B3C022498B6C900A96B28 /* CountryDetail.swift in Sources */,
+				544B3BFE24989D7500A96B28 /* Country.swift in Sources */,
 				544B3BE9249899B800A96B28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
